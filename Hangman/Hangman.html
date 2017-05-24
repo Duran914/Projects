@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hangman Game</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  </head>
+  <style>
+body {background-color: powderblue;}
+h1   {color: #1C496C;}
+p    {color: red;}
+p2   { color: green;}
+</style>
+
+  <body>
+    <h1>Hangman</h1>
+    <div class="container">
+      <div class="header">
+        <p>
+      <h2>  Word:  <span id="WORD"></span>  </h2>
+        </p>
+        <p>
+          Misses: <span id="GUESS">0</span> / 7
+        </p>
+        <p>
+           <span id="mess1"></span>
+           <br>
+           <span id="mess2"></span>
+           <br>
+           <span id="mess3"></span>
+           <br>
+           <span id="mess4"></span>
+           <br>
+           <span id="mess5"></span>
+           <br>
+           <span id="mess6"></span>
+           <br>
+           <span id="mess7"></span>
+           <br>
+           <br>
+           <strong>  <span id="loss"></span> </strong>
+        </p>
+        <p2>
+          <strong><span id="won"></span></strong>
+        </p2>
+      <br>
+      <br>
+      </div>
+
+      <div class="letters">
+        <input type="button" value=" A " id="a">
+        <input type="button" value=" B " id="b">
+        <input type="button" value=" C " id="c">
+        <input type="button" value=" D " id="d">
+        <input type="button" value=" E " id="e">
+        <input type="button" value=" F " id="f">
+        <input type="button" value=" G " id="g">
+        <input type="button" value=" H " id="h">
+        <input type="button" value=" I " id="i">
+        <input type="button" value=" J " id="j">
+        <input type="button" value=" K " id="k">
+        <input type="button" value=" L " id="l">
+        <input type="button" value=" M " id="m">
+        <input type="button" value=" N " id="n">
+        <input type="button" value=" O " id="o">
+        <input type="button" value=" P " id="p">
+        <input type="button" value=" Q " id="q">
+        <input type="button" value=" R " id="r">
+        <input type="button" value=" S " id="s">
+        <input type="button" value=" T " id="t">
+        <input type="button" value=" U " id="u">
+        <input type="button" value=" V " id="v">
+        <input type="button" value=" W " id="w">
+        <input type="button" value=" X " id="x">
+        <input type="button" value=" Y " id="y">
+        <input type="button" value=" Z " id="z">
+<br>
+<br>
+        <input type="button" value="Start New Game" id="newGame">
+      </div>
+    </div>
+    <script type="text/javascript" src="javascript.js">
+
+    </script>
+  </body>
+</html>
