@@ -1,0 +1,399 @@
+/*  grey color = #3f505a seafoam green = #00cc99  */
+body{
+  background-color: #f4f4f4;
+  margin: 0;
+  padding:0;
+  font-family: sans-serif,serif;
+
+}
+/*  Navigation Bar Styling  */
+header{
+  background-color: #3f505a;
+  color: #ffffff;
+  padding: 10px;
+  border-bottom: 4px solid #00cc99;
+}
+header h1 a{
+  text-decoration: none;
+}
+header li{
+  float:left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+header li a:hover{
+  color: #00cc99;
+}
+
+header #logo{
+  color: #00cc99;
+  float:left;
+}
+header nav{
+  float:right;
+  margin-top: -65px;
+  overflow: hidden;
+}
+/* responsive menu */
+header #menu{
+  display: none;
+  cursor: pointer;
+  float: right;
+  margin-top: -36px;
+  color:#00cc99;
+}
+
+/*  Footer Styling  */
+footer{
+  text-align: center;
+  background-color: #00cc99;
+  padding: 30px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+ footer i{
+  margin:10px;
+  color: #ffffff;
+}
+ footer i:hover{
+   color: #3f505a;
+ }
+#socialMedia{
+  float:right;
+  font-size: 20px;
+  margin-top:-18px;
+}
+#headerText{
+  float:left;
+  margin-top:-5px;
+}
+/* Content Container for main body space on
+  all pages */
+
+#content{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  padding: 25px;
+}
+/* hr lines for responsive menu */
+#hr{
+  display: none;
+}
+/* required fields red start*/
+#star{
+  color: red;
+}
+/* Button styling throught site */
+#button1{
+  background-color: #00cc99;
+  border: none;
+  padding:13px;
+  cursor: pointer;
+  color:#ffffff;
+}
+/* Font Aweseome X icon for Email Subs  */
+#fa-x{
+  color:#00cc99;
+  float:right;
+  margin-top: -25px;
+  margin-right: -15px;
+  cursor: pointer;
+}
+
+/* HOME PAGE(index.html)*/
+
+/* Newsletter styling for Home page  */
+.newsletter span{
+  float: center;
+  text-decoration: none;
+  color: black;
+}
+/* Stylign for main picture on Home page */
+.showcase{
+  color: #ffffff;
+  background:url(img/showcase.jpg)no-repeat -50px;
+  background-size: 1500px;
+  padding: 150px;
+  text-align: center;
+  border-bottom: 4px solid #00cc99;
+}
+.showcase h1{
+  font-size: 55px;
+}
+.showcase p{
+  font-size: 20px;
+}
+.newsletter{
+  background-color:#3f505a;
+  padding:30px;
+
+}
+.newsletter h2{
+  color:#ffffff;
+  margin-left: 40px;
+}
+.newsletter form{
+  float:right;
+  margin-top: -72px;
+  margin-right:40px;
+
+}
+.newsletter input[type="email"]{
+  padding:10px;
+  width:250px;
+}
+
+.newsletter #newsletterEmail{
+  color: #ffffff;
+}
+/* Success banner for vaild email */
+.successBanner #subBanner{
+  float: right;
+ }
+ /*  JS trigger banner message if uses subcribes */
+ #subBanner{
+   background-color: #00cc99;
+   color: #ffffff;
+ }
+
+/* styling for front end technologies img/info */
+#content .imgCards {
+  float:left;
+  width:30%;
+  padding:10px;
+  text-align: center;
+}
+.imgCards img{
+  width:90px;
+}
+/* styling for js icon */
+.imgCards #js_icon{
+  width: 100px;
+  margin-top: -17px;
+  margin-bottom: -10px;
+}
+
+/* ABOUT US PAGE */
+
+/*  Our Company content  */
+.leftContent {
+  float:left;
+  width: 50%;
+  padding: 15px;
+
+}
+/*  Sidebar What we do/contact us */
+.sidebar{
+  background-color: #3f505a;
+  color: #ffffff;
+  float:right;
+  width:30%;
+  margin-top: 10px;
+  padding: 5px;
+  border: 2px solid #252e33;
+  box-shadow: 7px 7px 5px grey;
+  padding: 10px;
+}
+.sidebar h3{
+  background-color:#00cc99;
+  padding:15px;
+  margin-top: -20px;
+  box-shadow: 7px 7px 5px black;
+}
+.sidebar input{
+  width: 90%;
+  padding:5px;
+}
+.sidebar #button1{
+  width:60px;
+}
+.sidebar textarea{
+  width:90%;
+  padding:5px;
+}
+.sidebar select{
+background-color: #ffffff;
+width:93%;
+}
+
+
+/* SERVICES PAGE*/
+#contact-us{
+  margin-top: 30px;
+}
+/* left side content on services page */
+.services{
+  float: left;
+  width: 50%;
+  padding: 15px;
+
+
+}
+/* styling for services offered  */
+.product{
+  background-color:#e6e6e6;
+  border: 1px solid #bfbfbf;
+  padding: 10px;
+  width:100%;
+  box-shadow: 7px 7px 5px grey;
+}
+
+
+.product h3{
+  background-color:#3f505a;
+  padding:15px;
+  color:#ffffff;
+  margin-top: -20px;
+  box-shadow: 7px 7px 5px grey;
+}
+/* Styling for page headers throughout site */
+ section #pageHeader{
+   text-indent: 20px;
+   font-size: 30px;
+ }
+
+ /*  Jquery trigger CSS for navBar menu icon */
+ .activeMenu{
+   padding: 2px 4px;
+   border: 1px solid #00cc99;
+   border-radius: 5px;
+ }
+
+/* Media Queries*/
+/******************** Media Queries********************************/
+
+
+@media(max-width: 830px){
+  .newsletter h2 {
+      float: none;
+      text-align: center;
+      margin-bottom: 80px;
+      margin-left: 15px;
+
+    }
+    .newsletter form{
+      float:none;
+      text-align: center;
+    }
+    .newsletter span{
+      margin-right: -45px;
+    }
+    .newsletter input[type="email"]{
+      width:100%;
+      text-align: center;
+      padding:15px;
+      font-size: 15px;
+      margin-left: 11px;
+    }
+    .newsletter input[type="submit"]{
+      width:100%;
+      margin-top: 10px;
+      font-size: 15px;
+      float: center;
+      text-align: center;
+      margin-left: 27px;
+    }
+
+}
+@media(max-width: 768px){
+header nav, header nav li,
+section #pageHeader, #content .imgCards
+{
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
+header{
+  padding:25px;
+}
+#socialMedia{
+  width: 100%;
+}
+#socialMedia i{
+  margin-top: 18px;
+}
+ #headerText{
+   width: 100%;
+   margin-top:-25px;
+}
+nav ul{
+  display: none;
+  width: 100%;
+  padding:5px;
+  text-align: center;
+}
+nav{
+  margin-bottom: -40px;
+}
+
+header #logo{
+  margin-top: -40px;
+}
+header #menu{
+  display: inline;
+}
+
+.toggle, .active, #hr{
+  display: block;
+}
+#siteWhiteText{
+     display: none;
+   }
+.showcase h1{
+  font-size: 40px;
+  text-align:center;
+ }
+ .showcase{
+   background:url(img/showcase.jpg)no-repeat -50px;
+   background-size: 900px;
+   padding: 90px;
+   text-align: center;
+
+ }
+
+ /* About Us*/
+ #content .leftContent {
+   width:100%;
+   text-align: center;
+   float:none;
+   margin-left: -25px;
+  }
+
+  #content .sidebar {
+    width:100%;
+    text-align: center;
+    float:none;
+    margin-left: -10px;
+    padding:10px;
+   }
+  #content .sidebar #button1{
+    width:85%;
+    text-align: center;
+    font-size: 15px;
+  }
+   #content .sidebar input{
+   text-align: center;
+   font-size: 15px;
+ }
+  #content .sidebar select{
+     font-size: 15px;
+  }
+ #contact-us{
+   margin-top: -30px;
+ }
+
+@media(max-width: 440px){
+.showcase{
+  background:url(img/showcase.jpg)no-repeat -60px;
+  background-size: 650px;
+  padding: 50px;
+  text-align: center;
+  }
+}
